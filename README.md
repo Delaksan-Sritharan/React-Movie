@@ -1,12 +1,14 @@
-# React + Vite
+# Dela Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## What is this project about?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a **React-based movie application** that allows users to easily interact with movie data. It's designed to offer a smooth experience for discovering and managing your favorite films, powered by the **TMDB (The Movie Database) API**.
 
-## Expanding the ESLint configuration
+Here's what you can do with it:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Search for movies**: Quickly find any movie you're looking for using the search functionality.
+- **Explore popular movies**: See what's currently trending and popular right on the homepage.
+- **Manage your favorites**: Effortlessly add or remove movies from your personalized favorites list.
+- **Enjoy persistent data**: Your selected favorite movies are saved directly in your browser's **local storage**, ensuring they remain available even after you close and reopen the application.
